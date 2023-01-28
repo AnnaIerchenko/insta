@@ -3,6 +3,8 @@ import { Inter } from '@next/font/google'
 
 import Header from '@/components/Header'
 import Feed from '@/components/Feed'
+import MyModal from '@/components/Modal'
+import Modal from '@/components/Modal'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -20,6 +22,7 @@ export default function Home() {
       {/* Feed */}
       <Feed />
       {/* Modal */}
+      <Modal />
     </div>
 
   )
